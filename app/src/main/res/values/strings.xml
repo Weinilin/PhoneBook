@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="no_contacts_to_be_found_drag_down_to_refresh_and_remove_the_search">No Contacts to be found. Drag down to refresh and remove the search</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="search_by_name">Search By Name</string>
+    <string name="add_a_contact">Add a contact</string>
+    <string name="phone_number_here">Phone Number Here</string>
+    <string name="name_here">Name Here</string>
+    <string name="edit_a_contact">Edit a contact</string>
+    <string name="to_submit">to submit</string>
+    <string name="delete_contact">delete contact</string>
+    <string name="to_edit_contact">to edit contact</string>
+</resources>

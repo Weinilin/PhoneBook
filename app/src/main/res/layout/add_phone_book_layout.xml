@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/titleRegister"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_title_border"
+        android:layout_gravity="center_horizontal"
+        android:elevation="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/add_a_contact"
+            android:textColor="@color/colorPrimary"
+            android:textSize="28sp" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <LinearLayout
+        android:id="@+id/formPhoneBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-110dp"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:autofillHints=""
+            android:background="@drawable/border_edit_text"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="15dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="@color/colorGray"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:autofillHints=""
+            android:background="@drawable/border_edit_text"
+            android:hint="@string/phone_number"
+            android:inputType="phone|number"
+            android:maxLines="1"
+            android:paddingStart="15dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="@color/colorGray"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="@drawable/border_edit_text"
+            android:hint="@string/address"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="15dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="@color/colorGray"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/insert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="45dp"
+        android:background="@drawable/rounded_button"
+        android:contentDescription="@string/to_submit"
+        android:elevation="4dp"
+        android:src="@drawable/ic_arrow" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

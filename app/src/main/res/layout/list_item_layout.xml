@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="7.5dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="7.5dp"
+    android:background="@drawable/list_item_rounded_border">
+
+    <TextView
+        android:id="@+id/nameListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_here"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="#252525"/>
+
+    <TextView
+        android:id="@+id/phoneNumberAndAddressListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-2dp"
+        android:text="@string/phone_number_here"
+        android:textSize="12sp"
+        android:textColor="#858585" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/buttonEditContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00AAAAAA"
+            android:contentDescription="@string/to_edit_contact"
+            android:src="@drawable/ic_edit" />
+
+        <ImageButton
+            android:id="@+id/buttonDeleteContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="#00AAAAAA"
+            android:contentDescription="@string/delete_contact"
+            android:src="@drawable/ic_delete" />
+
+    </LinearLayout>
+
+</LinearLayout>
